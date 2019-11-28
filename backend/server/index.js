@@ -1,5 +1,7 @@
 const express = require('express');
 const server = express();
+const fs = require('fs');
+var mysql = require('mysql');
 const fileManager = require('../logic/telecorpLogic.js');
 
 server.get('/', (req, res) => {
@@ -7,7 +9,16 @@ server.get('/', (req, res) => {
 });
 
 server.get('/file', (req, res) => {
-    res.send(fileManager.getJson());
+    
+    fs.readFile('../Files/detalle_factura.txt', 'utf-8',(error, filecontent) => {
+        if (error) {
+        	
+            throw error;
+        } else {
+        	res.send(filecontent);
+            return filecontent;
+        }
+    });
 })
 
 server.listen(3000, ()=>{

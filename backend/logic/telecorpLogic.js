@@ -19,8 +19,10 @@ fs.appendFile('nuevo_archivo.txt', text, (error) => {
 function getJson() {
     fs.readFile('nuevo_archivo.txt', 'utf-8',(error, filecontent) => {
         if (error) {
+        	
             throw error;
         } else {
+        	console.log(filecontent);
             return filecontent;
         }
     });
