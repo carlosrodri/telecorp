@@ -1,7 +1,11 @@
 const express = require('express');
 const server = express();
 const fs = require('fs');
-var mysql = require('mysql');
+var con = mysql.createConnection({
+	  host: "localhost",
+	  user: "yourusername",
+	  password: "yourpassword"
+	});
 const fileManager = require('../logic/telecorpLogic.js');
 
 server.get('/', (req, res) => {
