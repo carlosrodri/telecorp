@@ -1,0 +1,1 @@
+123456|cambio decodificadores|20000|cambio cableado|50000|cambio modem|50000

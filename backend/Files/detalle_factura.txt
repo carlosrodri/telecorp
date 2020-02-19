@@ -1,2 +1,2 @@
-123456|456789|Maria Sanchez|Boyacá|Duitama|calle 23 # 23 -4|341232344|Sep 03/19|Sep 16/19|Sep 03/19|Nov 02/19 
-445678|565753|Jose Rojas|Boyacá|Duitama|calle 20 # 65 -4|566744654|Sep 05/19|Sep 18/19|Sep 05/19|Nov 04/19
+123456|456789|Maria Sanchez|Boyaca|Duitama|calle 23 # 23 -4|341232344|Sep 03/19|Sep 16/19|Sep 03/19|Nov 02/19 
+445678|565753|Jose Rojas|Boyaca|Duitama|calle 20 # 65 -4|566744654|Sep 05/19|Sep 18/19|Sep 05/19|Nov 04/19

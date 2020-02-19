@@ -1,5 +1,8 @@
 const fs = require('fs');
 
-module.exports.json =  function () {
+module.exports.readJson =  function () {
     return fs.readFileSync('backend/Files/users.txt', 'utf-8');
 }
+
+
+
